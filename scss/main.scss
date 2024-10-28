@@ -1,0 +1,34 @@
+/*
+* Lista Import
+*/
+
+
+/*
+* variables
+*/
+@import './variables';
+@import './layout';
+@import './mixins';
+
+/*
+* Layout
+*/
+
+@import './header';
+@import './aside';
+@import './navbar';
+
+
+
+@import './mainContent';
+@import './experiencia';
+@import './ruleta';
+@import './callme';
+@import './politica';
+
+@import './footer';
+/*
+* Media Queries
+*/
+@import './mqContentindex';
+@import './mqContentindex2'

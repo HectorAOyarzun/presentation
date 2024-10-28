@@ -1,0 +1,27 @@
+.navbar{
+    display: none;
+}
+
+
+.bg-dark{
+    background-color: #001152!important;
+}
+.offcanvas{
+    background-color: #001152!important;
+}
+
+.offcanvas-body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+.offcanvas-body::-webkit-scrollbar-track {
+  background: rgb(199, 199, 199);        /* color of the tracking area */
+}
+
+.offcanvas-body::-webkit-scrollbar-thumb {
+  background-color: #555563;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(170, 170, 170);  /* creates padding around scroll thumb */
+}
+
+                        

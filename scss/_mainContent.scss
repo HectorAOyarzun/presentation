@@ -1,0 +1,279 @@
+
+.home{
+    display: flex;
+    margin-left: 320px;
+   //  background-image: url(../assets/ilustracion_home.jpg);
+     
+           //  background-repeat: no-repeat;
+           // background-size: cover;
+
+     
+    &__article{
+        margin: 40px 40px 0px 40px;
+    &__one{
+        color:#1084b3;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    &__two{
+        color:#1084b3;
+        font-size: 30px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+        
+        h3{
+            //margin: 0px 190px 0px 0px;
+            text-align: center;
+            font-weight: 900;
+            text-shadow: 1px 1px white;
+            
+        }
+        p{
+            
+            text-align: justify;
+           
+            strong{
+                color:#001152;
+            }
+        }
+
+    }
+    &__image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__article2{
+        margin: 40px 40px 0px 40px;
+        p{
+           
+            text-align: justify;
+        }
+
+    }
+    
+}
+
+#imagen {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.flotador {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  animation: flotar 5s ease-in-out infinite alternate;
+}
+
+@keyframes flotar {
+  from {
+    top: 0;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+    #frase {
+      font-size: 30px;
+      color: #1084b3;
+    }
+
+    #frase {
+      animation: cambiarColor 5s ease-in-out infinite alternate;
+    }
+
+    @keyframes cambiarColor {
+      from {
+        color: #1084b3;
+      }
+      to {
+        color: gray;
+      }
+    }
+
+
+
+
+
+
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-left: 320px;
+    padding:20px 0px 0px 0px;
+    &__image{
+        width: 300px;
+    }
+    &__text{
+        display: flex;
+        &__word{
+            display: flex;
+            flex-direction: column;
+            &__1{
+                color:#001152;
+                font-weight: 800;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            &__2{
+                color:#1084b3;
+                font-weight: 800;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 45px;
+            }
+            &__3{
+                color:#1084b3;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            &__4{
+                color:#001152;
+                font-size: 20px;
+            }
+            &__5{
+
+                strong{
+                    font-weight: bolder;
+                    color: #1084b3;
+                }
+            }
+        }
+
+    }
+}
+.help{
+    margin-left: 320px;
+    &__text{
+        display: flex;
+        flex-direction: column;
+        margin:40px;
+        h2{
+            color:gray;
+            font-weight: 800;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+         &__word__4{
+        font-size: 18px;
+    }
+    &__word__5{
+        font-size: 19px;
+        font-weight: 700;
+        color:#001152;
+    }
+    }
+   
+}
+.help__service{
+    display: flex;
+    flex-direction: row;
+
+   
+    &__block{
+       background: linear-gradient(to right, #1f3eb6, #1f3eb6);
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        flex-direction: column;
+        height: auto;
+        margin:30px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px 0px gray;
+        &:hover{
+              background: linear-gradient(to right, #606164, #4e515f);
+       
+    transform: scale(1.1)
+        }
+        svg{
+            width: 100%;
+            height: 50px;
+            color:white;
+        }
+
+       h4{
+        font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px gray;
+       }
+    }
+}
+.documents{
+    display: flex;
+    margin-left: 320px;
+    &__figure{
+        margin:40px;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background-color: #001152;
+        padding: 40px;
+        border-radius: 20px;
+        &__text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            color:white;
+            align-items: center;
+        svg{
+            width: 36px;
+            height: 36px;
+            color:white;
+            display: flex;
+            justify-content: space-around;
+                 animation-name: mianimacionabout;
+                 animation-duration:5s;
+                 animation-delay:1s;
+                 position:relative;
+                 animation-timing-function:linear;
+                 animation-iteration-count:infinite;
+                 margin-top: 10px;
+                 margin-bottom: 10px;
+                 @keyframes mianimacionabout{
+                 0% {donw:0;top:0px;}
+                 25%{color:rgb(123, 4, 128);}
+                 50% {color:aliceblue;}
+                 75% {color:rgb(5, 119, 148); }
+                 100% {donw:60px;top:0px;}
+                 }
+        }
+        p{
+             padding: 10px 0px 0px 0px;
+             
+        }
+         }
+    }
+}
+
+.aboutmas{
+    display: flex;
+     margin-left: 320px;
+     &__me{
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+        text-align: justify;
+        h3{
+                color: gray;
+    font-weight: 800;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+        }
+        &__textp{
+            text-align: center;
+        }
+
+      
+        strong{
+            color:#001152;
+            font-size: 15px;
+        
+        }
+     }
+
+}

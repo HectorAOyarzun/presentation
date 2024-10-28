@@ -1,0 +1,135 @@
+@media (max-width:780px){
+
+    .container__grid{
+        display:grid;
+        grid-template-areas: 
+        
+        "hea  hea hea hea"
+        "head  head head head"
+        "mai  mai mai mai"
+        "foo  foo foo foo"
+        ;
+    }
+   
+    .nav__aside{
+        grid-area: hea;
+    }
+    .header{
+        grid-area: head;
+    }
+    .main__content{
+        grid-area: mai;  
+    }
+    .footer__content{
+        grid-area: foo;
+    }
+    
+    .header{
+        margin-left: 0;
+    }
+.home{
+    display: flex;
+    flex-direction: column;
+    p{
+        text-align: center;
+    }
+}
+.documents{
+    display: flex;
+
+    &__figure{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.CV{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.experience{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.professional{
+    margin-left: 0;
+    margin-right: 10px;
+    &__text{
+        margin-left: 0;
+    }
+}
+.education{
+    margin-left: 0;
+     margin-right: 10px;
+    &__text{
+        margin-left: 0;
+    }
+}
+.skills{
+    margin-left: 0;
+     margin-right: 10px;
+}
+.navmenu{
+    margin-left: 0;
+    padding-left: 0;
+}
+.experience__title{
+    display: flex;
+    flex-direction: column;
+    &__contacts{
+        padding: 30px 0px 0px 0px;
+    }
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:440px){
+
+    .container__grid{
+        display:grid;
+        grid-template-areas: 
+        "hea  hea hea hea"
+        "head  head head head"
+        "mai  mai mai mai"
+        "foo  foo foo foo"
+        ;
+    }
+    
+    .nav__aside{
+        grid-area: hea;
+    }
+    .header{
+        grid-area: head;
+    }
+    .main__content{
+        grid-area: mai;  
+    }
+    .footer__content{
+        grid-area: foo;
+    }
+    
+    .header{
+        margin-left: 0;
+    }
+.home{
+    display: flex;
+    flex-direction: column;
+    p{
+        text-align: justify;
+    }
+    &__image{
+        display: flex;
+        img{
+            width: 250px;
+        }
+    }
+}
+
+}

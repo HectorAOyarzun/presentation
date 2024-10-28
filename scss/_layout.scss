@@ -1,0 +1,26 @@
+.container__grid{
+    display:grid;
+    grid-template-areas: 
+    "hea  head head head"
+    "hea  mai mai mai"
+    "hea  mai mai mai"
+    "hea  foo foo foo"
+    ;
+}
+
+.nav__aside{
+    grid-area: hea;
+
+  
+}
+.header{
+    grid-area: head;
+}
+.main__content{
+    grid-area: mai;
+    
+}
+.footer__content{
+    grid-area: foo;
+  
+}

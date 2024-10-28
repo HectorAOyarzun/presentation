@@ -1,0 +1,72 @@
+*{
+    @include reset;
+}
+html{
+    @include html;
+}
+body{
+    @include body;
+}
+main{
+    @include main;
+}
+.header{
+    margin-left: 309px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+   // background-color:#0f6eac;
+    background: linear-gradient(to right, #001152, #0695a9);
+    padding: 20px;
+
+    &__presentation{
+        display: flex;
+        &__word{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            h2{
+                color:white;
+                font-weight: 800;
+                font-size: 25px;
+            }
+            h3{
+                color:white;
+                font-weight: 800;
+                font-size: 20px;
+            }
+            h4{
+                color:rgb(199, 199, 199);
+                font-weight: 700;
+                font-size: 15px;
+            }
+            
+        }
+    }
+}
+
+.puntos {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  margin: 2px;
+  
+}
+
+.punto {
+  width: 10px;
+  height: 10px;
+   background: linear-gradient(to right, #303030, #727272ed, #3a3a3a9e);
+ background-color: rgb(104, 103, 103);
+  border-radius: 50px;
+  margin: 2px;
+   
+}
+ 
+
+
+             

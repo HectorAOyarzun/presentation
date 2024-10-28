@@ -1,0 +1,204 @@
+
+.CV{
+    background-color: #ffffff;
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: -1px 1px 6px 9px #8080804a;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.navmenu{
+    display: flex;
+    //margin-top: 30px;
+    //border-left: 4px solid #001153;
+    padding-left: 20px;
+    margin-left: 20px;
+    align-items: center;
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    a{
+        margin:0px 10px 0px 0px;
+        color:#001153;
+        font-weight: 900;
+        font-size: 13px;
+        &:hover{
+            color:rgb(138, 129, 2);
+            font-weight: 900;
+        }
+
+    }
+
+}
+.experience{
+    display: flex;
+    margin-left: 20px;
+    &__title{
+        display: flex;
+        &__text{
+            display: flex;
+            flex-direction: column;
+            h7{
+                display: flex;
+                color:gray;
+                font-weight: 700;
+            }
+
+
+            &__name{
+                color: #001153;
+                font-weight: 900;
+                font-family: fantasy;
+                font-size: 2.75rem;
+                letter-spacing: 0.4rem;
+                text-shadow: 1px 1px 0px gray;
+   
+
+            }
+        }
+        &__contacts{
+            display: flex;
+            padding: 30px;
+            
+            &__svg{
+                display: flex;
+                flex-direction: column;
+                border-left: 4px solid #001153;
+                padding: 20px;
+                &:hover{
+                    color:#868686;
+                }
+            &__links{
+                text-decoration: none;
+                color:#001153;
+                &:hover{
+                    color:#868686;
+                }
+                
+            }
+                h6{
+                    font-size: 13px;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}
+.professional{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 50px;
+    &__title{
+        
+        h4{
+            letter-spacing: 0.35px;
+            color: #001153;
+            font-weight: 800;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-left: 4px solid #001153;
+            padding-left: 20px;
+        }
+    
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        &__position{
+            display: flex;
+            font-weight: 900;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin:0;
+        }
+        &__company{
+            display: flex;
+            margin: 0;
+        }
+         &__age{
+        display: flex;
+        font-size: 10px;
+        
+    }
+    }
+   
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 50px;
+      &__title{
+        
+        h4{
+            letter-spacing: 0.35px;
+            color: #001153;
+            font-weight: 800;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-left: 4px solid #001153;
+            padding-left: 20px;
+        }
+    
+    }
+       &__text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+             &__titulo{
+            display: flex;
+            font-weight: 900;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin:0;
+        }
+        &__institute{
+            display: flex;
+            margin: 0;
+        }
+         &__age{
+        display: flex;
+        font-size: 10px;
+        
+    }
+}
+}
+.skills{
+        display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 50px;
+      &__title{
+        
+        h4{
+            letter-spacing: 0.35px;
+            color: #001153;
+            font-weight: 800;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-left: 4px solid #001153;
+            padding-left: 20px;
+        }
+    
+    }
+    &__item{
+        margin-bottom: 15px;
+        overflow: hidden;
+        padding: 0px 50px 0px 50px;
+    }
+    &__level-title{
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+    &__level-bar{
+        height: 12px;
+        background: #868686;
+    }
+    &__level-bar-inner{
+        height: 12px;
+        background: #001153;
+    }
+}

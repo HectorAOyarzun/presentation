@@ -1,0 +1,186 @@
+
+
+.nav__aside::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+.nav__aside::-webkit-scrollbar-track {
+  background: rgb(199, 199, 199);        /* color of the tracking area */
+}
+
+.nav__aside::-webkit-scrollbar-thumb {
+  background-color: violet;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(170, 170, 170);  /* creates padding around scroll thumb */
+}
+.nav__aside__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+&Name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+}
+.foto{
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 3px 0px 0px 2px #8e8e99;
+    //padding: 30px;
+    margin: 20px 15px 20px 0px;
+    // width: 300px;
+    padding: 15px; 
+    padding-right: 7px;
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    a{
+        display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    }
+    &__svg{
+       // margin-top: 10px;
+       // width: 25px;
+       // height: 25px;
+       // color:#b6b6b6;
+       // &:hover{
+        //    color:#ffffff;
+
+        //}
+         animation-name: mianimacionrrss;
+                 animation-duration:5s;
+                 animation-delay:1s;
+                 position:relative;
+                 animation-timing-function:linear;
+                 animation-iteration-count:infinite;
+                 margin-top: 10px;
+                 margin-bottom: 15px;
+                 @keyframes mianimacionrrss{
+                 0% {donw:0;top:0px;}
+                 25%{color:rgb(15, 114, 206);donw:10px;top:5px;}
+                 50% {color:aliceblue; donw:20px;top:10px;}
+                 75% {color:bisque; donw:30px;top:15px;}
+                 100% {donw:60px;top:0px;}
+                 }
+
+    }
+
+}
+.nav__aside{
+    background-color: cornflowerblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 308px;
+    background: #001152;
+    color: #fff;
+    overflow-y: auto;
+    &__weight{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        text-shadow: 1px 1px gray;
+        font-weight: 700;
+        margin-right: 3px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    &__normal{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        text-shadow: 1px 1px black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:#999999;
+    }
+    &__text{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+.aside{
+display: flex;
+flex-direction: column;
+&__title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    text-decoration: none;
+    color:white;
+
+    &:hover{
+        color:gray;
+    }
+    svg{
+        margin-left: 10px;
+        width: 20px;
+       
+    }
+    h5{
+        margin-left: 10px;
+        font-weight: 600;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+&__datos{
+    display: flex;
+    flex-direction: row;
+    &__links{
+        display: flex;
+        color:white;
+        text-decoration: none;
+        &:hover{
+            color:#02ffff;
+        }
+    }
+}
+}
+
+.aside{
+display: flex;
+flex-direction: column;
+&__title__contacto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    text-decoration: none;
+    color:white;
+    h5{
+        margin-left: 10px;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    &__svg{
+    margin-left: 10px;
+    width: 20px;
+}
+}
+
+&__datos{
+    display: flex;
+    flex-direction: row;
+    svg{
+
+        margin-left: 35px;
+        margin-right: 8px;
+        width: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+}
+}
+
